@@ -1,0 +1,47 @@
+#Contact{
+    background: black;
+    padding-top: 0pt;
+    padding-bottom: 200pt;
+}
+
+#cont_contain{
+    max-width: 550pt; margin-top: 200pt; padding: 100pt 100pt; color: white;
+}
+
+#boxes{
+    max-width: 700pt;
+    margin-top: 0pt;
+}
+
+#textBox{
+    border: none;
+    font-size: 13pt;
+    border-radius: 4pt;
+    padding: 10pt 10pt;
+}
+
+#textArea{
+    border: none;
+    font-size: 13pt;
+    border-radius: 4pt;
+    padding: 10pt;
+}
+
+
+@media screen and (max-width: 1000px) {
+    
+    #textBox{
+        padding: 10pt 10pt;
+        margin: 5pt 0pt;
+    }
+
+    #textArea{
+        padding: 10pt 10pt;
+        margin: 5pt 0pt;
+    }
+
+    #Contact{
+        background: black;
+        padding-bottom: 100pt;
+    }
+}

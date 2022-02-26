@@ -1,0 +1,49 @@
+
+.text{
+    color: rgb(128, 128, 128);
+    font-size: 20px;
+}
+
+/*Products and Portfolio card*/
+
+
+
+@media screen and (max-width: 1000px) {
+    
+} 
+
+.inputBox{
+    background: white;
+    padding: 7pt 7pt;
+}
+
+p{
+    font-size: 14px;
+}
+/* Footer */
+
+#Footer{
+    color: #e9e9e9;
+    background: #0a0a0a;
+
+}
+
+.butt{
+    color: white;
+    padding: 10pt 20pt;
+    border: none;
+    background: #a134e9;
+    margin: 5pt;
+}
+
+
+
+/* Footer End */
+
+.Card{
+    margin: 100pt 100pt;
+}
+
+.container-fluid{
+    max-width: 800pt;
+}

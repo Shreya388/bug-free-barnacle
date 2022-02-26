@@ -1,0 +1,20 @@
+.portfolio{
+    padding: 10pt 0pt; margin-top: 40pt;
+}
+
+
+#cards {
+    height: 100pt; margin:20pt 10pt;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .portfolio{
+        padding: 100pt 0pt; margin-top: 750pt;
+    }
+
+    #cards {
+        height: 250pt; margin-top: 60pt;
+    }
+    
+} 

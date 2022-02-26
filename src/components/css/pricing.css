@@ -1,0 +1,16 @@
+.pricing{
+    background: rgb(236, 236, 236);
+    padding: 200pt;
+}
+
+.cards {
+    background: rgb(0, 0, 0);
+    padding: 50pt;
+}
+
+#button{
+    background:rgb(50, 1, 73);
+    border: none;
+    border-radius: 20pt;
+    padding: 10pt 20pt;
+}

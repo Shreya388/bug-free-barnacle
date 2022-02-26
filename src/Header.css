@@ -1,0 +1,85 @@
+/* Navbar section */
+.topBar{
+    background: rgba(255, 255, 255, 0.966);
+    border-bottom:1pt solid rgb(231, 231, 231);
+}
+
+#ul{
+    margin-left: 500px;
+    padding: 15pt 0;
+}
+
+@media screen and (max-width: 1000px) {
+    #ul{
+        margin-left: 0px;
+        padding: 5pt 0;
+        padding:10pt;
+    }
+
+    .contact{
+        color: white;
+        padding: 10pt 20pt;
+        border-radius: 24pt;
+        border: none;
+        background: #9b00fb;
+    }
+}
+
+.alink{
+    color:#7641d8;
+    padding: 10pt 0pt;
+    text-decoration: none;
+    font-size: 11pt;
+    border-bottom:3pt solid rgb(255, 208, 99);
+}
+.link {
+    color:rgb(34, 34, 34);
+    margin: 0pt 10pt;
+    padding: 10pt 0pt;
+    text-decoration: none;
+    font-size: 11pt;
+    font-weight: regular;
+}
+
+
+.link:hover{
+    color:#7641d8;
+}
+
+
+/*cover section */
+
+.cover{
+    background-image: url(components/css/images/cover4.jpg);
+    padding: 360px 0 ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: left;
+}
+
+
+
+.contact{
+    color: white;
+    padding: 10pt 20pt;
+    border-radius: 24pt;
+    border: none;
+    background: #9b00fb;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .cover{
+        background-image: url(components/css/images/cover4.jpg);
+        padding: 120px 0 ;
+        background-position: bottom;
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+    }
+
+    
+
+
+} 

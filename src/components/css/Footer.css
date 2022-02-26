@@ -1,0 +1,44 @@
+#footer{
+    background: #0c0c0c;
+    color: rgb(255 234 234);
+}
+
+#footer_content{
+    background: #ececec; padding: 50pt 0; color: rgb(42, 42, 42); border:1pt solid rgb(212, 212, 212);
+}
+
+.footer_nav{
+    border-top: 1pt solid rgb(51, 51, 51); padding-top: 20pt; padding-bottom: 20pt; background: #141414; 
+}
+
+.footerLink {
+    color: #d1d1d1; font-size: 11pt; text-decoration: none;
+}   
+
+.textbox{
+    border: none;
+    font-size: 13pt;
+    padding: 10pt;
+}
+
+#Link{
+    color: rgb(202, 202, 202);
+    font-size: 14pt;
+}
+
+#Link:hover{
+    color: rgb(92, 25, 155);
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    #footer_content{
+        background: #111111; padding: 50pt 0; color: white; margin: 60pt 0pt;
+    }
+
+    #container-fluid{
+        max-width: 300pt ;
+    }
+
+}
